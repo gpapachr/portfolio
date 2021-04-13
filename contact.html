@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GP</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <header>
+            <article class="bar">
+                <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                <a href="cv.html"><i class="fa fa-file"></i> CV</a>
+                <a class="active" href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
+            </article>
+            
+            <article class="profile-card-2">
+                <img src="assets/cv-picture.jpg" width="100" alt="John's picture">
+                <h1>Ioannis Papachristou</h1>
+
+                <p class="job">Computer Science Student</p>
+
+                <p class="uni">Athens University of Economics and Business</p>
+
+                <a href="https://github.com/gpapachr" target="_blank"><img src="assets/github.png" width="30" alt="github logo"></a>
+                <a href="https://www.linkedin.com/in/giannis-papachristou/" target="_blank"><img src="assets/linkedin.png" width="30" alt="linkedin logo"></a>
+                <a href="https://twitter.com/gi_papachristou" target="_blank"><img src="assets/twitter.png" width="30" alt="twitter logo"></a>
+                <p>
+                    <a href="mailto:giannis.papachristou@yahoo.gr"><button>Email</button></a>
+                </p>
+            </article>
+
+        </header>
+
+        <article id="contact-form">
+            <h4>Contact Form</h4>
+            <form action="mailto:giannis.papachristou@yahoo.gr" method="POST" name="EmailForm" autocomplete="on"> 
+
+                <label for="FirstName">First Name:</label><br>
+                <input type="text" size="19" id="FirstName" name="First Name"><br><br>
+    
+                <label for="LastName">Last Name:</label><br>
+                <input type="text" size="19" id="LastName" name="Last Name"><br><br>
+    
+                <label for="mail">Email Address:</label><br>
+                <input type="email" size="19" id="mail" name="Email" placeholder="someone@mail.com" required><br><br>
+    
+                <label for="mobile">Mobile Phone:</label><br>
+                <input type="tel" size="19" id="mobile" name="Phone" placeholder="6987654321" pattern="69[0-9]{8}" title="69--------"><br><br>
+    
+                <label for="Message">Message:</label><br>
+                <textarea id="Message" name="Message" rows="5"></textarea><br><br>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+
+        <section>
+            <footer id="footer2">
+                This website was developed during AUEB's "Web Programming" course. Copyright &copy; 2021, Ioannis Papachristou. All rights reserved.
+            </footer> 
+        </section>
+
+    </body>
+</html>
