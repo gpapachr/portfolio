@@ -1,0 +1,264 @@
+body {
+    background-image: url(assets/background.jpg);
+    background-color: rgb(196, 196, 196);
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+}
+
+.my_photo{
+    box-shadow: 10px 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+#back-button a{
+    color: #22adc5;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#back-button a:hover{
+    font-size: 1.1em;
+}
+
+.project{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project img, .project p{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.project a{
+    text-decoration: none;
+}
+
+.project img:hover{
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language {
+    color: grey;
+}
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    padding: 20% 20% 5%;
+}
+
+.bar{
+    background-color: #333;
+    overflow: hidden;
+}
+.bar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;    
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bar a:hover {
+    background-color: rgb(95, 95, 95);
+}
+
+.bar a.active {
+    background-color: #22adc5;
+    color: white;
+}
+
+.profile-card{
+    background-color: rgb(206, 206, 206);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.job {
+    color: rgb(49, 49, 49);
+    font-size: 18px;
+}
+
+/* #cv {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+  }
+  
+
+.responsive_iframe {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+.tablet {
+    position: relative;
+    width: 768px;
+    height: 1024px;
+    margin: auto;
+    margin-top: 20px;
+    border: 16px black solid;
+    border-top-width: 30px;
+    border-bottom-width: 60px;
+    border-radius: 30px;
+}
+
+.tablet:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+}
+
+.tablet .screen {
+    width: 768px;
+    height: 1024px;
+    background: white;
+    margin: -1px;
+}
+
+.screen_frame{
+    width: 100%; 
+    height: 100%; 
+    border:none"
+}
+
+button{
+    background-color: rgb(185, 185, 185);
+    color: black;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: rgb(204, 204, 204);
+    color: black;
+}
+
+#contact-form{
+    float: right;
+    text-align: center;
+    width: 60%;
+}
+
+.profile-card-2{
+    background-color: rgb(206, 206, 206);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    float: left;
+}
+
+#footer2{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    padding: 20% 30% 5%;
+}
+
+.skill-bar {
+    width: 90%;
+    background-color: #ddd;
+    box-sizing: border-box;
+}
+
+.java{
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    width: 90%;
+    background-color:seagreen;
+}
+
+.python{
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    width: 80%;
+    background-color:steelblue;
+}
+
+.cpp{
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    width: 60%;
+    background-color:tomato;
+}
+
+.html{
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    width: 75%;
+    background-color:rgb(238, 218, 130);
+}
